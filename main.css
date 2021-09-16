@@ -1,8 +1,45 @@
-body {
+h1 {
+    position: fixed;
+    top:0;
+    left: 0;
+    right:0;
+    text-align: center;
+    background: black;
+    border-top-color: black;
+    margin: 0%;
+    color:white;
+    padding-top: 15px;
+    padding-bottom: 15px;
     
 }
-ul {
-    line-height:  12px;
-    margin: 5px;
-    
+#Traveaux {
+    top:47px;
+    position: fixed;
+    border-color: Blue;
+    background: black;
+    border-style:solid;
+    color: white;
+    padding: 10px;
+    left: 0;
+    border-width: 2px;
+        
 }
+#Poem {
+    top:400px;
+    position: fixed;
+    left:20%;
+}
+#voyageParfait {
+    top:400px;
+    position: fixed;
+    right:20%;
+}
+#voyageParfait:hover {
+    font-size: 20px;
+}
+#Poem:hover {
+    font-size: 20px;
+}
+
+  
+  
