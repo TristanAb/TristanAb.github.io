@@ -11,7 +11,9 @@ h1 {
     padding-top: 15px;
     padding-bottom: 15px;
     
+    
 }
+
 #Traveaux {
     top:47px;
     position: fixed;
@@ -25,21 +27,23 @@ h1 {
         
 }
 #Poem {
-    top:400px;
+    top:500px;;
     position: fixed;
     left:20%;
 }
 #voyageParfait {
-    top:400px;
+    top:500px;
     position: fixed;
     right:20%;
 }
-#voyageParfait:hover {
+#Biography {
+    top:500px;
+    position: fixed;
+    left:40%;
+    right: 40%;
+    text-align: center;
+}
+#Poem:hover, #voyageParfait:hover, #Biography:hover {
     font-size: 20px;
 }
-#Poem:hover {
-    font-size: 20px;
-}
-
-  
   
