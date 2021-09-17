@@ -1,4 +1,4 @@
-h1 {
+#Title {
     position: fixed;
     top:0;
     left: 0;
@@ -14,10 +14,10 @@ h1 {
     
 }
 
-#Traveaux {
-    top:47px;
+#Traveaux, h1 {
+    top:49px;
     position: fixed;
-    border-color: skyBlue;
+    border-color: SkyBlue;
     background: black;
     border-style:solid;
     color: white;
@@ -25,6 +25,18 @@ h1 {
     left: 0;
     border-width: 2px;
         
+}
+#Back{
+    position: fixed;
+    right: 5px;
+    top: 72px;
+    height: 50px;
+    border:red solid 2px;
+    padding: 0px;
+    
+}
+#Back:hover, h1:hover {
+    height: 70px;
 }
 #Poem {
     top:500px;;
