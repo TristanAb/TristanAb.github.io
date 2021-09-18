@@ -60,6 +60,25 @@ body{
 background: rgb(0,0,0);
 background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 4%, rgba(255,255,255,1) 96%, rgba(0,0,0,1) 100%);
 }
-#VOyage {
-    
+
+.VOyage {
+    font-weight:bold;
+}
+#Canyon{
+    right: 65%;
+    top: 25%;
+    position: fixed;
+    font-size:13px;
+}
+#Bison{
+    left:           ;
+    top: 25%;
+    position: fixed;
+    font-size:13px;
+}
+#Poutine{
+    left: 67%;
+    top: 25%;
+    position: fixed;
+    font-size:13px
 }
