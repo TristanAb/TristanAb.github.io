@@ -1,5 +1,5 @@
 #Title {
-    position: fixed;
+    position: absolute;
     top:0;
     left: 0;
     right:0;
@@ -16,7 +16,7 @@
 
 #Traveaux, h1 {
     top:49px;
-    position: fixed;
+    position: absolute;
     border-color: SkyBlue;
     background: black;
     border-style:solid;
@@ -27,7 +27,7 @@
         
 }
 #Back{
-    position: fixed;
+    position: absolute;
     right: 5px;
     top: 72px;
     height: 50px;
@@ -38,17 +38,17 @@
 
 #Poem {
     top:500px;;
-    position: fixed;
+    position: absolute;
     left:20%;
 }
 #voyageParfait {
     top:500px;
-    position: fixed;
+    position: absolute;
     right:20%;
 }
 #Biography {
     top:500px;
-    position: fixed;
+    position: absolute;
     left:40%;
     right: 40%;
     text-align: center;
@@ -65,20 +65,28 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 4%, rgb
     font-weight:bold;
 }
 #Canyon{
-    right: 65%;
+    left: 5%;
     top: 25%;
     position: fixed;
     font-size:13px;
+        text-align: center;
+    align-content: center;
 }
 #Bison{
-    left:           ;
+    
+    text-align: center;
+    align-content: center;
     top: 25%;
-    position: fixed;
+    position:fixed;
     font-size:13px;
+    left: 40%;
 }
 #Poutine{
     left: 67%;
     top: 25%;
-    position: fixed;
-    font-size:13px
+    position: absolute;
+    font-size:13px;
+    float:right;
+    text-align: center;
+    align-content: center;
 }
