@@ -61,6 +61,7 @@ background: rgb(0,0,0);
 background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 4%, rgba(255,255,255,1) 96%, rgba(0,0,0,1) 100%);
 overflow-x: auto;
 overflow:scroll;
+font-family: Arial, Helvetica, sans-serif,  
 }
 
 .VOyage {
@@ -104,8 +105,46 @@ overflow:scroll;
 }
 
 #centrer{
-  top:140px;
+  top:200px;
   position: absolute;
   left:5%;
 }
+#portrait{
+  left:40%;
+  width: 10%;
+  right:40% ;
+  position: absolute;
+  top:80px;
+  border: red dotted;
+  max-height: 110px;
+
+}
+.imagess {
+  width:40% ;
+  border-style: double;
+}
+
+#tableBouje{
+  background-color: black;
+  border-color: SkyBlue;
+  border-style: solid;
+  margin-right:5px;
+  margin-left: 5px;
+  right: 2%;
+  position:fixed;
+  color: white;
+  padding: 5px;
+  top:130px;
+}
+#Table{
+  position: absolute;
+  top:150px;
+  border: black solid 1px;
+}
+td, th {
+  border: black solid 1px;
+  font-weight: bold;
+}
+
+
 
