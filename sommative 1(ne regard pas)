@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+  </head>
+  <body>
+    <h1>ShoeStockers</h1>
+    <p></p>
+    
+    <!-- Premier chaussur -->
+    <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.complex.com%2Fcomplex%2Fimages%2Fc_scale%2Cf_auto%2Cq_auto%2Cw_1920%2Ffl_lossy%2Cpg_1%2Fiot1dbjmzr7z6kfkoxrb%2Fnike-air-force-1-lead-1%3Ffimg-ssr-default&imgrefurl=https%3A%2F%2Fwww.complex.com%2Fsneakers%2F2017%2F01%2Fnike-air-force-1-history&tbnid=VjFceJTK4398_M&vet=12ahUKEwj04Z-Xo7vzAhVEqnIEHTJYA1oQMygAegUIARDVAQ..i&docid=oUKl_LbSXbzu0M&w=1920&h=1133&itg=1&q=Nike%20air%20force%201&ved=2ahUKEwj04Z-Xo7vzAhVEqnIEHTJYA1oQMygAegUIARDVAQ"><br>
+    <label >Nike airforce 1 </label>
+    <input type="number" id="money1" min="0" max="10" value="0">
+    <label for="money1" >120$</label>
+    <br><br>
+    
+
+    <!-- Deuxiem chaussur -->
+    <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.nike.com%2Fa%2Fimages%2Ft_PDP_1280_v1%2Ff_auto%2Cq_auto%3Aeco%2Ffb7eda3c-5ac8-4d05-a18f-1c2c5e82e36e%2Fblazer-mid-77-vintage-shoe-CBDjT0.png&imgrefurl=https%3A%2F%2Fwww.nike.com%2Fca%2Ft%2Fblazer-mid-77-vintage-shoe-CBDjT0&tbnid=yAzDiWVfaMMHGM&vet=12ahUKEwiuw4bDo7vzAhU2g3IEHU42CBMQMygCegUIARDFAQ..i&docid=jxudOe_ESdy1OM&w=1280&h=1600&itg=1&q=nike%20Nike%20Blazer%2077&ved=2ahUKEwiuw4bDo7vzAhU2g3IEHU42CBMQMygCegUIARDFAQ"><br>
+    <label>Nike Blazer 77 </label>
+    <input type="number" id="money2" min="0" max="10" value="0">
+    <label for="money2">135$</label>
+    <br><br>
+
+    <!-- Troisiem chaussur -->
+    <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fsneakerbardetroit.com%2Fwp-content%2Fuploads%2F2021%2F01%2FAir-Jordan-1-University-Blue-555088-134-Release-Date-Price-4-1068x730.jpg&imgrefurl=https%3A%2F%2Fsneakerbardetroit.com%2Fair-jordan-1-white-university-blue-black-555088-134-release-date%2F&tbnid=kcDzrleR89nHJM&vet=12ahUKEwi409Pfo7vzAhU1YzUKHX93DXAQMygCegUIARDCAQ..i&docid=so28_NVolfJP6M&w=1068&h=730&itg=1&q=Air%20Jordan%201%20%27university%20blue%27&ved=2ahUKEwi409Pfo7vzAhU1YzUKHX93DXAQMygCegUIARDCAQ"><br>
+    <label >Air Jordan 1 'university blue'  </label>
+    <input type="number" id="money3" min="0" max="10" value="0">
+    <label id="money3">313$</label>
+    <br><br>
+
+    <!-- Quatriem chaussur -->
+    <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.nike.com%2Fa%2Fimages%2Ft_PDP_1280_v1%2Ff_auto%2Cq_auto%3Aeco%2Fcfaa7c83-b45a-4a97-ae6b-953389577449%2Fkyrie-7-basketball-shoe-3QRRCS.png&imgrefurl=https%3A%2F%2Fwww.nike.com%2Flu%2Fen%2Ft%2Fkyrie-7-basketball-shoe-3QRRCS%2FCQ9326-700&tbnid=dDNRh2GIK_9uwM&vet=12ahUKEwjA-Zn0o7vzAhXogXIEHTFIDdMQMygHegUIARC8AQ..i&docid=jnRoKwt-jxtjOM&w=1280&h=1600&itg=1&q=nike%20kyrie%207%20basketball%20shoes&ved=2ahUKEwjA-Zn0o7vzAhXogXIEHTFIDdMQMygHegUIARC8AQ"><br>
+    <label >Nike Kyrie 7 Basketball Shoes </label>
+    <input type="number" id="money4" min="0" max="10" value="0">
+    <label for="money4">127$</label>
+    <br><br>
+    
+    <!-- Cinquiem chaussur -->
+    <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.stockx.com%2Fimages%2FNike-Kobe-6-Grinch-Christmas-Product.jpg%3Ffit%3Dfill%26bg%3DFFFFFF%26w%3D700%26h%3D500%26auto%3Dformat%2Ccompress%26q%3D90%26dpr%3D2%26trim%3Dcolor%26updated_at%3D1606317200&imgrefurl=https%3A%2F%2Fstockx.com%2Fkobe-6-grinch&tbnid=03UOnnWBbCrFQM&vet=12ahUKEwjI3-GKpLvzAhUXrXIEHfK5AyoQMygCegUIARC2AQ..i&docid=AZM-PpCJ1UR7YM&w=1400&h=1000&itg=1&q=Zoom%20kobe%206%20%27GRINCH%27%20&ved=2ahUKEwjI3-GKpLvzAhUXrXIEHfK5AyoQMygCegUIARC2AQ"><br>
+    <label >Zoom kobe 6 'GRINCH' </label>
+    <input type="number" id="money5" min="0" max="10" value="0">
+    <label for="money5">2408$</label>
+    <br>
+
+    <p>-------------------------------------------------</p>
+
+    <!-- checkout-->
+    <label for="region">Dans quell province est-vous</label>
+    <select id="region">
+      <option value="Ontario">Ontario</option>
+      <option value="Quebec">Quebec</option>
+    </select>
+    <br><br>
+    <input type="button" value="Checkout" onclick="checkout()">
+    <br>
+    <p>---------------------------------------</p>
+    <!-- recue avec plusieur lign pour que je peux changer dans javascript-->
+    <div id="recue"></div>
+    <div id="ligne1"></div>
+    <div id="ligne2"></div>
+    <div id="ligne3"></div>
+    <div id="ligne4"></div>
+    <div id="ligne5"></div>
+    <div id="separateur"></div>
+    <div id="sousTotal"></div>
+    <div id="tax"></div>
+    <div id="totale"></div>
+
+    
+    <script src="script.js"></script>
+  </body>
+</html>
